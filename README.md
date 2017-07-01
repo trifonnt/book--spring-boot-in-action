@@ -27,3 +27,10 @@ echo "PATH=$PATH:/home/vagrant/workspace-eclipse/04_book--Spring-Boot-in-Action/
 exit
 source /etc/environment 
 ```
+
+## How to enable shell completion
+```shell
+cd /home/vagrant/workspace-eclipse/04_book--Spring-Boot-in-Action/spring-1.5.4.RELEASE
+sudo ln -s /home/vagrant/workspace-eclipse/04_book--Spring-Boot-in-Action/spring-1.5.4.RELEASE/shell-completion/bash/spring /etc/bash_completion.d/spring
+sudo ln -s /home/vagrant/workspace-eclipse/04_book--Spring-Boot-in-Action/spring-1.5.4.RELEASE/shell-completion/zsh/_spring /usr/local/share/zsh/site-functions/_spring
+```
